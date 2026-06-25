@@ -14,12 +14,6 @@ import { MethodologySection } from "@/components/MethodologySection";
 
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Helping the best be more than" },
-      { name: "description", content: "Advisory services for HR leaders and business executives redefining growth." },
-    ],
-  }),
   component: Index,
 });
 
