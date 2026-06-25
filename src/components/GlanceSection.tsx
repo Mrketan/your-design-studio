@@ -85,7 +85,7 @@ export function GlanceSection() {
       </motion.div>
 
       {/* Marquee Banner */}
-      <div className="w-full bg-[#020617] py-8 overflow-hidden flex flex-nowrap shadow-inner border-y border-[#0A1D3A]/30">
+      <div className="w-full bg-white py-8 overflow-hidden flex flex-nowrap shadow-inner border-y-2 border-[#FF2A2A]">
         <div className="flex items-center gap-6 pr-6 animate-[marquee_30s_linear_infinite] whitespace-nowrap shrink-0">
           {Array.from({ length: 12 }).map((_, i) => (
             <LogoPill key={`pill-1-${i}`} />
